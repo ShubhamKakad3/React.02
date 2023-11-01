@@ -7,7 +7,7 @@ function GitHub() {
     // u can fetch like this 1
     // const [data,setData] = useState([])
     // useEffect(() => {                   // USEEFFECT USED FOR API CALL
-    //     fetch('https://api.github.com/users/hiteshchoudhary')
+    //     fetch('https://api.github.com/users/ShubhamKakad3')
     //         .then((res) => res.json())
     //         .then((data) => {
     //             console.log(data);
@@ -28,6 +28,6 @@ function GitHub() {
 // also u can fetch like this 
 export default GitHub
 export const GitHubInfoLoader = async () => {
-    const response =  await fetch('https://api.github.com/users/hiteshchoudhary')
+    const response =  await fetch('https://api.github.com/users/ShubhamKakad3')      
     return  response.json()
   }

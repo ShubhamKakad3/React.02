@@ -35,11 +35,11 @@ import GitHub, {GitHubInfoLoader } from './Components/GitHub.jsx'
 // routes 2 way 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path= '/' element={ <Layout />}>
+    <Route path= '/' element={ <Layout />}>            // nested routes ,main route is layout 
         <Route path='' element={<Home />} />
         <Route path='about' element={<About />} />
         <Route path='contact' element={<Contact />} />
-        <Route path='user/:userid' element={<User />} />
+        <Route path='user/:userid' element={<User />} />          // get dynamic value/info
         <Route
          loader={GitHubInfoLoader}
          path='github'
@@ -51,6 +51,6 @@ const router = createBrowserRouter(
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <RouterProvider router={router} />                
   </React.StrictMode>,
 )
