@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <UserContextProvider>
+      <UserContextProvider>                        // 10       // also u can pass data/api here
         <h1>hellow user</h1>
         <Login />
         <Profile/>
