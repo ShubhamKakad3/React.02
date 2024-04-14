@@ -1,8 +1,23 @@
-# React + Vite
+# React Base Todo App with CRUD Operations
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a basic Todo application built using React.js. It allows users to create, read, update, and delete tasks, commonly known as CRUD operations. This README serves as a guide on how to set up and use the application.
 
-Currently, two official plugins are available:
+### Features
+- Create: Users can add new tasks to the list.
+- Read: Users can view the list of tasks.
+- Update: Users can edit the existing tasks.
+- Delete: Users can remove tasks from the list.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+### Prerequisites
+Node.js and npm installed on your machine.
+
+
+### Getting Started
+
+After cloning the repo ensure you complete the necessary installations
+
+```
+$ npm install
+$ npm run dev
+```
